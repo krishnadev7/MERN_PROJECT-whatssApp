@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "whatsapp-clone-in-mern-stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./node_modules/babel-cli/bin/babel-node.js --presets node8 ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krishnadev",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node8": "^1.2.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.14"
+  }
+}
